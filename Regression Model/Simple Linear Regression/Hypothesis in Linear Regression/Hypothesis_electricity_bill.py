@@ -11,7 +11,7 @@ class ElectricityBillPrediction:
 
     def __init__(self):
         self.dataset = pd.read_csv(
-            '/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Simple Linear Regression/Hypothesis in Linear Regression/electricity_bill.csv'
+            '/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Simple Linear Regression/Hypothesis in Linear Regression/electricity_bill.csv'
         )
 
     def prepare_data(self):

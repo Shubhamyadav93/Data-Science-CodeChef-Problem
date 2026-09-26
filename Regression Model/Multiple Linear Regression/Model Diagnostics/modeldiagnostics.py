@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
 # Load the dataset 
-dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Multiple Linear Regression/Model Diagnostics/student_exam_scores.csv')
+dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Multiple Linear Regression/Model Diagnostics/student_exam_scores.csv')
 
 # Store the input features 
 X = dataset[["StudyHours","Attendance","AssignmentsCompleted"]]

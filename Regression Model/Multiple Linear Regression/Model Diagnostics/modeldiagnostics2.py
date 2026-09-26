@@ -17,7 +17,7 @@ class MedicalExpensesPredictor:
 
     def load_dataset(self):
         # Load the CSV file 
-        self.dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Multiple Linear Regression/Model Diagnostics/medical_expenses.csv')
+        self.dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Multiple Linear Regression/Model Diagnostics/medical_expenses.csv')
 
     def prepare_data(self):
         # Store the input features

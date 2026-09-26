@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # Load data set
-dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Multiple Linear Regression/Assumption of Multiple Linear Regression/student_performance.csv')
+dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Multiple Linear Regression/Assumption of Multiple Linear Regression/student_performance.csv')
 
 # Store the input features 
 

@@ -16,7 +16,7 @@ class HousePricePrediction:
     def load_dataset(self):
 
         # Load the CSV file 
-        self.dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Multiple Linear Regression/Assumption of Multiple Linear Regression/house_price_prediction.csv')
+        self.dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Multiple Linear Regression/Assumption of Multiple Linear Regression/house_price_prediction.csv')
 
 
     def prepare_data(self):

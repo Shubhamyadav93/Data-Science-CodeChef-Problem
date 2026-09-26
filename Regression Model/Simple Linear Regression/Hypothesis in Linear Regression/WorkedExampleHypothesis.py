@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression 
 
 # 1. Load the Dataset 
-dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Simple Linear Regression/Hypothesis in Linear Regression/car_prices.csv')
+dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Simple Linear Regression/Hypothesis in Linear Regression/car_prices.csv')
 
 # 2.Select the input feature (CarAge) and target (SellingPrice)
 

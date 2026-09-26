@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # Load the dataset features 
-dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Multiple Linear Regression/Regression Coefficients/house_price_analysis.csv')
+dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Multiple Linear Regression/Regression Coefficients/house_price_analysis.csv')
 
 # Store the input features 
 X = dataset[["Area","Bedrooms","HouseAge"]]

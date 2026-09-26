@@ -9,7 +9,7 @@ class ApartmentRentCostCalculator:
     """
 
     def __init__(self):
-        self.dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Simple Linear Regression/Cost Function/apartment_rent.csv')
+        self.dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Simple Linear Regression/Cost Function/apartment_rent.csv')
 
     def prepare_data(self):
         # Store the input feature 

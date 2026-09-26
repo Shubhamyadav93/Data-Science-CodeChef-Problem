@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 #  Load the dataset 
-dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/CodeChefProblem/Regression Model/Simple Linear Regression/OLS-Least Squares/employee_salary.csv')
+dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Simple Linear Regression/OLS-Least Squares/employee_salary.csv')
 
 # Store the target value 
 X = dataset[["YearsExperience"]]
