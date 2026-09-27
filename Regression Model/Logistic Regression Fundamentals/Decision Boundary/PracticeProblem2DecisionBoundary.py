@@ -71,4 +71,3 @@ if __name__ == "__main__":
 
     for predicted_class in claseses:
         print(predicted_class) 
-
