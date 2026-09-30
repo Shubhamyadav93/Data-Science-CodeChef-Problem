@@ -1,0 +1,21 @@
+
+
+                Tasks to Perform. --> Oversampling
+
+Load the dataset.
+Separate the majority and minority classes.
+Apply Random Oversampling to the minority class.
+Combine both classes into a balanced dataset.
+Return the balanced dataset.
+Return the class distribution after oversampling.
+
+
+        # Load the CSV file 
+        # Create the balanced dataset using random oversampling 
+            # Separate the majority class 
+            # Separate the minority class 
+            # Duplicate the minority class 
+            # Combined the both classes  
+        # Return the balanced dataset 
+        # Return the class distribution after oversampling 
+
