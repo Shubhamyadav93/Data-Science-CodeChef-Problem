@@ -44,7 +44,6 @@ class DiseaseDatasetBalance:
         # Return the class distribution after oversampling 
         return self.balanced_dataset["HasDisease"].value_counts()
 
-
 if __name__ == "__main__":
 
     balancer = DiseaseDatasetBalance() 
@@ -60,8 +59,4 @@ if __name__ == "__main__":
     print("Class Distribution") 
 
     print(balancer.get_class_destribution())
-
-
-
-    
 
