@@ -2,9 +2,9 @@ import pandas as pd
 from imblearn.over_sampling import SMOTE 
 
 def load_dataset():
-    """
+    """ 
     Load the loan approval dataset 
-    """
+    """  
     # Read the CSV file 
     return pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Regression Model/Logistic Regression Fundamentals/Handling Class Imbalance/SMOTE (Synthetic Minority Over-sampling Technique)/loan_approval_imbalanced2.csv')
 
@@ -13,7 +13,7 @@ def apply_smote(dataset):
     Balance the dataset using SMOTE. 
     """ 
     # Sparate the Inpute feature 
-    X = dataset[["AnnualIncome","CreditScore"]]
+    X = dataset[["AnnualIncome","CreditScore"]] 
 
     # Separate the target class 
     y = dataset["LoanApproved"] 
@@ -56,6 +56,4 @@ def main():
 
 if __name__== "__main__":
     main() 
-
-
-     
+    

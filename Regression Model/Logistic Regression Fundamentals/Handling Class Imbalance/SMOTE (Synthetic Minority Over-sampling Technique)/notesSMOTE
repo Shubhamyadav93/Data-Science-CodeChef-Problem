@@ -1,0 +1,23 @@
+
+
+Tasks to Perform --> SMOTE 
+
+1. Load the dataset.
+2. Separate the input features and target class.   
+3. Apply SMOTE to balance the dataset.   
+4. Create a balanced dataset using the resampled features and target values.   
+5. Return the balanced dataset.   
+6. Return the class distribution after applying SMOTE.   
+
+
+
+            # Create balanced dataset using SMOTE 
+                # Separate input features 
+                # Separate the input feature 
+                # Separete the target class 
+                # Cretate the SMOTE object 
+                # Generate the synthetic samples 
+                # Create the balanced dataset 
+
+
+
