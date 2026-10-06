@@ -55,7 +55,7 @@ def display_tree_information(model,X):
     # Predict the house prices
     predictions = model.predict(X)
 
-    print("\nPrediction Prices")
+    print("\nPrediction Priceses")
 
     for price in predictions:
         print(f"{price:.2f}")
