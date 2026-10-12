@@ -16,6 +16,4 @@ class HousePriceTreeAnalyzer:
         self.dataset = pd.read_csv('/Users/shubham/Desktop/Fundamentals of Data Science/Data Science CodeChef Problem/Tree Based/Regression Trees/Splits in Regression Trees/house_price_regression_tree.csv') 
     
     def prepare_data(self):
-        pass 
-
-    
+        pass  
